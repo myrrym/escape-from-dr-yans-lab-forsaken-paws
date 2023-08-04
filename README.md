@@ -34,7 +34,7 @@ If you have any questions please ask in the group chat right away.
 3. Add your work files from your existing project folder (step 1) to the version-controlled folder (step 2). Eg: Add your scripts into the Script folder in the cloned version-controlled folder.
 
 ## Commmitting + Pushing
-1. Close your Unity Editor.
+1. ***Close your Unity Editor.***
 2. Once step 1 is done, in the GitHub Desktop application, near the bottom left, add a meaningful summary for your current commit.
 **Best practice - list what you are adding to the repository. Eg: "added cutscene asset, fixed player not able to jump"**
 3. Click on the "Commit to **develop**" button.
