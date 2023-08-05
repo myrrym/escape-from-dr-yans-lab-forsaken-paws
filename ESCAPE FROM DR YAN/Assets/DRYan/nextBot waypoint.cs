@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class nextBotwaypoint : MonoBehaviour
 {
     [SerializeField]
-    private GameObject player;
+    public GameObject player;
     //enemy
     [SerializeField]
     private NavMeshAgent navAgent;
