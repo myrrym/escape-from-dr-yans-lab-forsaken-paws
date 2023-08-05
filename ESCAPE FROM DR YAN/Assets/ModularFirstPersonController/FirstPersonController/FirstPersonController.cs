@@ -202,6 +202,27 @@ public class FirstPersonController : MonoBehaviour
 
     private void Update()
     {
+        // AN - for future reference, namespace.class.variable
+        Debug.Log(PauseMenu.pauseMenu.GameIsPaused);
+
+        // AN - if game is paused, should override cursor
+        if(PauseMenu.pauseMenu.GameIsPaused && lockCursor)
+        {
+            // AN - bring up cursor
+            Cursor.lockState = CursorLockMode.None;
+            // AN - stop camera movement
+            cameraCanMove = false;
+        }
+        else
+        {
+            // AN - remove cursor
+            Cursor.lockState = CursorLockMode.Locked;
+            // AN - resume camera movement
+            cameraCanMove = true;
+        }
+
+        // AN - AN - end
+
         #region Camera
 
         // Control camera movement

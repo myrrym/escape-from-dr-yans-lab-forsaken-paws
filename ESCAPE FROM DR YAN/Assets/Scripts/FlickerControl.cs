@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// AN
+
 public class FlickerControl : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -25,7 +27,7 @@ public class FlickerControl : MonoBehaviour
         timeDelay = Random.Range(0.01f, 0.2f);
         yield return new WaitForSeconds(timeDelay);
         this.gameObject.GetComponent<Light>().enabled = true;
-        timeDelay = Random.Range(0.01f, 0.2f);
+        timeDelay = Random.Range(0.01f, 0.4f);
         yield return new WaitForSeconds(timeDelay);
         isFlickering = false;
     }

@@ -17,4 +17,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI/Credits.unity
     guid: 9e300be0c9d17e24d889e116fa4d1d2e
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/StartingToLevel5.unity
+    guid: 45387244b9ca5d6478485dbe7b940894
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Level5ToLevel4.unity
+    guid: 651001f5e7ff2614b83cd3af500b645b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Floor 4 - Psychiatry.unity
+    guid: 6751832cdbb144d45be44b5dd90c0291
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Level4ToLevel3.unity
+    guid: 9cb339f8fbcbe654d8bd8b7e52dcbf5d
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Level3ToLevel2.unity
+    guid: 27b2739e9761d334aa55c1a152714473
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Level2ToLevel1.unity
+    guid: 8768ee596e6ae9245b3dcd4482ea3303
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Level1ToEnding.unity
+    guid: be5fc8fc71f70a0409c030182e87887d
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/GameOver.unity
+    guid: d71a59f9eaf0c81478b30d166d2f4a8e
   m_configObjects: {}
